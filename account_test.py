@@ -6,7 +6,7 @@ class Test(unittest.TestCase):
 
     def test_check_password_length(self):
         print("Checking possible passwords\n")
-        passwordList = [ 'administrator123', 'abeautifulday', 'astrictboss', 'alovelyhouse' ]
+        passwordList = [ 'admin', 'abeautifulday', 'astrictboss', 'alovelyhouse' ]
 
         for passwd in passwordList:
             print("Checking password " + passwd + "\n")
